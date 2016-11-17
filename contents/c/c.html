@@ -69,6 +69,17 @@
             -webkit-box-shadow: 1px 1px 3px #000;
             box-shadow: 1px 1px 3px #000;
         }
+        .item{
+            margin: 15px;
+            padding: 10px;
+
+            -webkit-box-shadow: #666 0px 0px 10px;
+            -moz-box-shadow: #666 0px 0px 10px;
+            box-shadow: #666 0px 0px 10px;
+            background: #f9f9f9;
+            min-width:100px;
+            white-space:nowrap
+        }
 
         .close:hover { background: #00d9ff; }
     </style>
@@ -108,8 +119,9 @@
     <p><a href="http://mindhacks.cn/2009/05/17/seven-years-in-nju/">我在南大的七年</a></p>
     <p><a href="https://book.douban.com/subject/5375620/">失控</a></p>
     <h3>上机题目</h3>
-    <ul>
-        <li>
+    <div id="contents" style="{horiz-align: left;}">
+        <div></div>
+        <div class="item">
             <p>
                 <strong><a href="C1.docx" onmouseover="addQR(this)" onmouseout="rmQR(this)">Assignment 1</a> </strong>(2016-10-11)
             </p>
@@ -123,9 +135,8 @@
                     <a href="C1_A2.c">C1_A2</a>
                 </li>
             </ul>
-            <ul><p></p></ul>
-        </li>
-        <li>
+        </div>
+        <div class="item">
             <p>
                 <strong><a href="C2.docx" onmouseover="addQR(this)" onmouseout="rmQR(this)">Assignment 2</a> </strong>(2016-10-18)
             </p>
@@ -139,9 +150,8 @@
                     <a href="C2_A2.c">C2_A2</a>
                 </li>
             </ul>
-            <ul><p></p></ul>
-        </li>
-        <li>
+        </div>
+        <div class="item">
             <p>
                 <strong><a href="C3.docx" onmouseover="addQR(this)" onmouseout="rmQR(this)">Assignment 3</a> </strong>(2016-10-25)
             </p>
@@ -160,9 +170,8 @@
                     <a href="Sort.c">Sort</a>
                 </li>
             </ul>
-            <ul><p></p></ul>
-        </li>
-        <li>
+        </div>
+        <div class="item">
             <p>
                 <strong><a href="C4.docx" onmouseover="addQR(this)" onmouseout="rmQR(this)">Assignment 4</a> </strong>(2016-11-01)
             </p>
@@ -181,8 +190,8 @@
                     <a href="#C4_video_player">大作业效果视频示例</a>
                 </li>
             </ul>
-            <ul><p></p></ul>
-        <li>
+        </div>
+        <div class="item">
             <p>
                 <strong><a href="C5.docx" onmouseover="addQR(this)" onmouseout="rmQR(this)">Assignment 5</a> </strong>(2016-11-08)
             </p>
@@ -191,26 +200,25 @@
                     <a href="C5.c">C5_A</a>
                 </li>
             </ul>
-            <ul><p></p></ul>
-        </li>
-        <li>
-        <p>
-            <strong><a href="C6.docx" onmouseover="addQR(this)" onmouseout="rmQR(this)">Assignment 6</a> </strong>(2016-11-15)
-        </p>
-        <ul>
-            <li>
-                <a href="C6.c">C6_A</a>
-            </li>
-        </ul>
+        </div>
+        <div class="item">
+            <p>
+                <strong><a href="C6.docx" onmouseover="addQR(this)" onmouseout="rmQR(this)">Assignment 6</a> </strong>(2016-11-15)
+            </p>
+            <ul>
+                <li>
+                    <a href="C6.c">C6_A</a>
+                </li>
+            </ul>
             <ul>
                 <li>
                     <a href="Chw1.c">大作业答案示例</a>
                 </li>
             </ul>
-        <ul><p></p></ul>
-    </li>
+        </div>
+    </div>
 
-    </ul>
+
     <h3>历史公告</h3>
     <blockquote>
         (2016-11-01) 11月15号的上机课进行第一次大作业检查，大作业见
